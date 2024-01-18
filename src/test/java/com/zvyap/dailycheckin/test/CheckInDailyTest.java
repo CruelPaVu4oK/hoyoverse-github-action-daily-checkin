@@ -27,8 +27,23 @@ public class CheckInDailyTest {
                         .game(GameType.GENSHIN_IMPACT)
                         .game(GameType.HONKAI_STAR_RAIL)
                         .build(),
-                            CheckInAction.builder()
+                CheckInAction.builder()
                         .token(HoyoToken.of(System.getenv("USER_2_ID"), System.getenv("USER_2_TOKEN")))
+                        .game(GameType.GENSHIN_IMPACT)
+                        .game(GameType.HONKAI_STAR_RAIL)
+                        .build(),
+                 CheckInAction.builder()
+                        .token(HoyoToken.of(System.getenv("USER_3_ID"), System.getenv("USER_3_TOKEN")))
+                        .game(GameType.GENSHIN_IMPACT)
+                        .game(GameType.HONKAI_STAR_RAIL)
+                        .build(),
+                 CheckInAction.builder()
+                        .token(HoyoToken.of(System.getenv("USER_4_ID"), System.getenv("USER_4_TOKEN")))
+                        .game(GameType.GENSHIN_IMPACT)
+                        .game(GameType.HONKAI_STAR_RAIL)
+                        .build(),
+                 CheckInAction.builder()
+                        .token(HoyoToken.of(System.getenv("USER_5_ID"), System.getenv("USER_5_TOKEN")))
                         .game(GameType.GENSHIN_IMPACT)
                         .game(GameType.HONKAI_STAR_RAIL)
                         .build()
