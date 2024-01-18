@@ -40,3 +40,9 @@ jobs:
         USER_1_TOKEN: ${{ secrets.MY_TOKEN }}
         USER_2_ID: ${{ secrets.MY2_TOKEN_ID }}
         USER_2_TOKEN: ${{ secrets.MY2_TOKEN }}
+        USER_3_ID: ${{ secrets.MAINSHREDDER_TOKEN_ID }}
+        USER_3_TOKEN: ${{ secrets.MAINSHREDDER_TOKEN }}
+        USER_4_ID: ${{ secrets.TWINKSHREDDER_TOKEN_ID }}
+        USER_4_TOKEN: ${{ secrets.TWINKSHREDDER_TOKEN }}
+        USER_5_ID: ${{ secrets.SPLINTER_TOKEN_ID }}
+        USER_5_TOKEN: ${{ secrets.SPLINTER_TOKEN }}
